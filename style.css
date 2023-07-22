@@ -41,8 +41,17 @@ section h1 {
 }
 
 section { margin-left: 5%;
+    flex-wrap: 100;
 }
 
 .border {
     border-right: 5px solid black
+
+}
+
+.footer{
+    border: 25px;
+    border-radius: 14px;
+
+
 }
