@@ -3,31 +3,30 @@ main{
     grid-template-columns: 1fr 3fr;
     background-color: rgb(253, 253, 253);
 }
+
 header h1 {
     text-align: left;
-    font-size: 65px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    font-family::Georgia, 'Times New Roman', Times, serif
 }
 
-
-h2{
-    text-align: left;
-    font-size: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: left 75%;
-}
 h2{
     display:flex;
     background-color: rgb(59, 58, 58);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 5px;
 }
 
 header {
     display:flex;
-    background-color: rgb(82, 113, 141);
+    background-color: rgb(97, 97, 98);
     padding: 10px;
-    align-items: center;
+    align-items: top;
     justify-content: space-between;
+
 } 
 
 
@@ -37,7 +36,7 @@ nav a{
 }
 
 nav{
-    font-size: 20px; 
+    font-size: 15px; 
     font-weight: 100;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
@@ -62,7 +61,7 @@ section h1 {
 }
 
 .image2 img:hover{
-    border-color: aqua;
+    border-color: rgb(199, 243, 243);
 }
 
 .image2{     
@@ -76,17 +75,19 @@ section h1 {
 }
 
 .border {
-    border-right: 5px solid black
+    border-right: 5px solid rgb(48, 47, 47)
 }
 
 footer {
     background-color: #f0f0f0;
-    padding: 10px;
+    width: 100%;
+    min-height: 10%;
+    padding:5%;
     text-align: center;
 }
 
 article{
-    border: 2px solid red;
+    border: 2px solid rgb(76, 62, 62);
     min-height: 300px;
     display:flex
 }
@@ -95,7 +96,7 @@ article{
 .section-title {
     width: 19%;
     background-color: #ccc;
-    border-right: 5px solid purple;
+    border-right: 5px solid rgb(35, 35, 35);
 }
 
 .section-content{
@@ -109,7 +110,7 @@ article{
     justify-content: center;
     align-items: center;
     min-height: 150px;
-    background-color: orange;
+    background-color: rgb(1, 0, 0);
     width: 100%;
 }
 .small-container1{
