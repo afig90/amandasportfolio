@@ -2,14 +2,24 @@ main{
     display: grid;
     grid-template-columns: 1fr 3fr;
     background-color: rgb(253, 253, 253);
-
- 
 }
 header h1 {
     text-align: left;
     font-size: 65px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+
+h2{
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: left 75px;
+}
+h2{
+    display:flex;
+    background-color: rgb(59, 58, 58);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -21,7 +31,6 @@ header {
 }
 
 
-
 nav a{
     color: white;   
     text-decoration: underline;
@@ -31,7 +40,6 @@ nav{
     font-size: 20px; 
     font-weight: 100;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-
 }
 
 section h1 {
@@ -40,18 +48,58 @@ section h1 {
     ;
 }
 
-section { margin-left: 5%;
+section { 
+    margin-left: 5%;
     flex-wrap: 100;
 }
+
+.image1 {
+    border: 2px solid #ccc;
+    padding: 5px;
+    max-width: 901px;
+    max-height: 500px;
+    margin: 0 auto;
+}
+
+.image1 {
+    display: inline-block;
+}
+
+.image1 img {
+border:2px solid #ccc
+transition: border-color 0.3s ease;
+}
+
+.image1 img:hover{
+    border-color: aqua;
+}
+
+@media (any-hover: hover) {
+    a:hover {
+    border: 2px solid rgb(18, 21, 33);
+      
+    }
+  }
+
+.image2{     
+    display: inline-flexbox;
+    max-width: 50%;
+    border: 2px solid #ccc;
+    padding: 5px;
+    max-width: 901px;
+    max-height: 500px;
+    margin: 0 auto;
+}
+
 
 .border {
     border-right: 5px solid black
 
 }
 
-.footer{
-    border: 25px;
-    border-radius: 14px;
-
-
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-between;
 }
