@@ -99,7 +99,6 @@ article{
 
 }
 .section-contact{
-    font-color: black;
     background-color: #ccc;
     display: flex;
     width:80%;
@@ -114,6 +113,17 @@ article{
     min-height: 150px;
     background-color: rgb(1, 0, 0);
     width: 100%;
+
+.contact{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+    background-color: rgb(1, 0, 0);
+    width: 100%;
+}
+
+
 }
 .small-container1{
     width: 100%;
