@@ -8,7 +8,7 @@ This repository contains the necessary files and code to create a stylish and pr
 ## Installation
 
 Open the HTML in browser
-![screen shot for challenge](file:///C:/Users/Amanda/Pictures/screenshot%20for%20challenge2.png)
+![screen shot for challenge]
 
 ## Users
 Users can use this project as a guide to help make themselves and their work look approachable and neat for potential employers.
