@@ -6,7 +6,7 @@ main{
 
 header h1 {
     text-align: left;
-    font-size: 60px;
+    font-size: 100px;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 
@@ -14,7 +14,7 @@ header h1 {
 header {
     display:flex;
     background-color:rgb(176, 149, 149);
-    padding: 10px;
+    padding: 100px;
     align-items: top;
     justify-content: space-between;
 } 
@@ -32,27 +32,21 @@ nav a{
 }
 
 nav{
-    font-size: 15px; 
+    font-size: 50px; 
     font-weight: 100;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
-.navigation {
-    color-scheme: white;
-    text-decoration:solid;
-    font-size: 40px;
-    font-weight: 100px;
-}
+
 
 /*styles for second heading*/
 h2{
     display:flex;
     background-color:rgb(76, 62, 62);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
+    font-size: 70px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
-    padding: 5px;
+    padding: 50px;
 }
 
 /*border for around images*/
@@ -62,7 +56,7 @@ h2{
 
 /*style for main content of page*/
 article{
-    border: 2px solid #ccc;
+    border: 50px solid #ccc;
     min-height: 300px;
     display:flex
 }
@@ -72,13 +66,14 @@ article{
     background-color: #ccc;
     border-right: 5px solid rgb(35, 35, 35);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 35px;
+    font-size: 50px;
 }
 
 .section-content{
     background-color: #ccc;
     width: 80%;
     padding: 2%;
+    font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
@@ -109,8 +104,8 @@ article{
 }
 
 .image-container img {
-    width: 50%;
-    height: 50%; 
+    width: 75%;
+    height: 75%; 
     overflow: hidden;
     border:5px solid #ccc;
     transition: border-color 0.3s ease;
@@ -121,20 +116,23 @@ article{
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
-    width:900px;
+    width:1800px;
     min-height: 20%;
     justify-content: space-between;
 }
 
 .groupImg{
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 420px;
     margin: 10px;
 }
 
-/*styles for hover on page (not working)*/
 .groupImg:hover{
-    border: 2px solid rgb(155, 127, 127)
+    border: 10px solid rgb(155, 127, 127);
+/*styles for hover on page (not working)*/
+}
+.image-container img:hover{
+    border: 10px solid rgb(155, 127, 127);
     /* border-color:rgb(155, 127, 127); */
 }
 /*
