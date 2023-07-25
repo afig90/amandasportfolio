@@ -99,7 +99,7 @@ article{
     width: 450px;
     margin: 10px;
 }
-
+/*hover aspect*/
 .groupImg:hover{
     border: 10px solid rgb(155, 127, 127);
     /*styles for hover on page*/
