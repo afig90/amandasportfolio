@@ -8,7 +8,8 @@ This repository contains the necessary files and code to create a stylish and pr
 ## Installation
 
 Open the HTML in browser
-![screen shot for challenge]
+![screen shot for challenge](https://github.com/afig90/amandasportfolio/assets/139464759/4a4d94ca-5cd1-4752-a076-18bafb0b31b6)
+
 
 ## Users
 Users can use this project as a guide to help make themselves and their work look approachable and neat for potential employers.
